@@ -1,0 +1,23 @@
+{
+    "name": "newsletter",
+    "version": "1.0.0",
+    "description": "this is a newsletter template",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/WayYOLO"
+  },
+    "keywords": [
+        "newsletter",
+        "template",
+        "glup",
+        "sass"
+    ],
+    "author": {
+        "name": "way",
+        "email": "913227516@qq.com",
+        "blog": "http://wayyolo.github.io/"
+    },
+    "devDependencies": {
+        "gulp": "^3.9.1"
+    }
+}
