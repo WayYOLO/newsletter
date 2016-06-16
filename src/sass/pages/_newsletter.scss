@@ -1,0 +1,81 @@
+@charset "UTF-8";
+//=====================================================================
+//newsletter的定制样式
+//=====================================================================
+.conbox{
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.bc{
+    border-color: #d3e0e9;
+}
+.conbox-head{
+    text-align: left;
+    padding: .5rem 1rem;
+    border-bottom: 1px solid #d3e0e9;
+    white-space:nowrap;
+    > .icon{
+        display: inline-block;
+        font-size: 2rem;
+    }
+    > .title{
+        display: inline-block;
+        margin-bottom: 0;
+        padding-left:.5rem;
+    }
+}
+.conbox-body{
+    @include clearfix();
+    padding:1em 0;
+    padding-top:0;
+}
+.conbox-foot{
+    padding:1em 0;
+}
+.conbox-topbg{
+    height: 150px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.conbox-downcon{
+    min-height: 300px;
+    padding:0 .5rem;
+}
+.down-a{
+    display: initial;
+    max-width: 100px;
+    margin-top: -70px;
+    margin-bottom: 5px;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.footer-sns{
+    display: table-cell;
+    vertical-align: top;
+    white-space:nowrap;
+    a{
+        display: inline-block;
+        color:rgba(255, 255, 255, 0.8);
+        padding-right:10px;
+        &:hover{
+            text-decoration:none;
+            color: #fff;
+        }
+        & .icon{
+            font-size: 20px;
+        }
+    }
+}
+.footer-exp{
+    display: table-cell;
+    padding-top:30px;
+    padding-left:10px;
+}
+
+.article{
+    padding:0 .5rem;
+}

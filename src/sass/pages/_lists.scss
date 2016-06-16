@@ -1,0 +1,23 @@
+@charset "UTF-8";
+//=====================================================================
+//列表样式
+//=====================================================================
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    list-style: none;
+}
+ul li:not(:first-child){
+    padding-top:1rem;
+}
+
+ul.level{
+    padding:2rem .5rem 1rem;
+    .pic img{
+        border-radius: 4px;
+    }
+}
+// @media (min-width: 40rem) {
+//     ul { display: inline-block; }
+// }

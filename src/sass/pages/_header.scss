@@ -1,0 +1,48 @@
+@charset "UTF-8";
+//=====================================================================
+//头部布局
+//=====================================================================
+header {
+    background-color: #f5f8fa;
+    text-align: center;
+}
+
+.intro { margin: 2rem 0; }
+
+@media (min-width: 40rem) {
+    .intro { margin: 4rem 0; }
+}
+
+header h1 {
+    border: 3px solid #fff;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #fff;
+    padding: .4rem .6rem;
+    display: inline-block;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+header p {
+    color: rgba(255,255,255,0.7);
+    margin: 0 auto;
+}
+
+header a {
+    color: rgba(255,255,255,0.9);
+    text-decoration: underline;
+}
+
+header a:hover { text-decoration: none; }
+
+.mobile {
+    margin: 0 auto;
+    max-width: 150px;
+}
+
+@media (min-width: 40rem) {
+    .mobile { max-width: 250px; }
+}

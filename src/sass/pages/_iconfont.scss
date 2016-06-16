@@ -1,0 +1,29 @@
+
+@font-face {font-family: "iconfont";
+  src: url('../fonts/iconfont.eot?t=1465787285'); /* IE9*/
+  src: url('../fonts/iconfont.eot?t=1465787285#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/iconfont.woff?t=1465787285') format('woff'), /* chrome, firefox */
+  url('../fonts/iconfont.ttf?t=1465787285') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../fonts/iconfont.svg?t=1465787285#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-aperture:before { content: "\e600"; }
+.icon-desktop:before { content: "\e601"; }
+.icon-camera:before { content: "\e602"; }
+.icon-compass:before { content: "\e603"; }
+.icon-genius:before { content: "\e604"; }
+.icon-global:before { content: "\e605"; }
+.icon-hazardous:before { content: "\e606"; }
+.icon-newspaper:before { content: "\e607"; }
+.icon-linkedin:before { content: "\e608"; }
+.icon-linkedin0:before { content: "\e609"; }
+.icon-twitter:before { content: "\e60a"; }
+.icon-twitter0:before { content: "\e60b"; }

@@ -1,0 +1,64 @@
+@charset "UTF-8";
+//=====================================================================
+//页面元素样式
+//=====================================================================
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 2rem auto;
+    width: 3rem;
+}
+
+@media (min-width: 40rem) {
+    hr { margin: 2.5rem auto; }
+}
+
+hr.small { margin: 1.5rem auto; }
+
+.circle {
+    border: 3px solid #555;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color: #555;
+    display: block;
+    font-size: 1.7rem;
+    font-weight: 600;
+    height: 3.2rem;
+    line-height: 1.7em;
+    margin: 0 auto 1rem auto;
+    text-align: center;
+    width: 3.2rem;
+}
+
+img {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.rwd {
+    margin: 0 auto 1.5rem auto;
+    max-width: 440px;
+}
+.note{
+    position: relative;
+    background: #fff;
+    background:linear-gradient(-150deg,transparent 1.5em,#fff 0);
+    border-radius:.5em;
+    min-height: 300px;
+}
+.note::before{
+    content: '';
+    position:absolute;
+    top:0;
+    right:0;
+    background:linear-gradient( to left bottom, transparent 50%, rgba(0,0,0,.2) 0,rgba(0,0,0,.4)) 100% 0 no-repeat;
+    width: 1.73em;
+    height:3em;
+    transform: translateY(-1.3em) rotate(-30deg);
+    transform-origin:bottom right;
+    border-bottom-left-radius:inherit;
+    box-shadow:-.2em, .2em .3em -.1em rgba(0,0,0,.15);
+}

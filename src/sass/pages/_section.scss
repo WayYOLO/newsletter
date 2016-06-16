@@ -1,0 +1,15 @@
+@charset "UTF-8";
+//=====================================================================
+//区段的样式
+//=====================================================================
+section {
+    border-top: 1px solid #eee;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+section:first-of-type { border-top: none; }
+
+@media (min-width: 40rem) {
+    section { padding: 1rem 0; }
+}

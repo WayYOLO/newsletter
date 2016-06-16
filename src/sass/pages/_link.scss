@@ -1,0 +1,23 @@
+@charset "UTF-8";
+//=====================================================================
+//链接样式
+//=====================================================================
+a {
+    color: #497bad;
+    text-decoration: none;
+}
+
+a:hover { text-decoration: underline; }
+
+.pic > a{
+    display: block;
+}
+
+.ver .pic a{
+    opacity: .8;
+    display: block;
+    transition: opacity .25s;
+    &:hover{
+        opacity: 1;
+    }
+}

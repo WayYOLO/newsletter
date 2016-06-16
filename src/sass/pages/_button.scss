@@ -1,0 +1,71 @@
+@charset "UTF-8";
+//=====================================================================
+//按钮样式
+//=====================================================================
+$bt-default:#58a;
+$bt-success:#6b0;
+
+.button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #497bad;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.7rem 1.5rem;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.button:hover {
+    background: #5183b6;
+    text-decoration: none;
+}
+
+@media (min-width: 40rem) {
+    .button {
+        display: inline-block;
+        font-size: 0.9rem;
+    }
+}
+.bt{
+    display: inline-block;
+    padding:.3em .8em;
+    border: 1px solid rgba(0,0,0,.1);
+    background: $bt-default;
+    background: $bt-default linear-gradient(hsla(0,0%,100%,.2),transparent);
+    border-radius:.2em;
+    box-shadow:0 .05em .25em rgba(0,0,0,.5);
+    color: white;
+    text-shadow: 0 -.05em .05em rgba(0,0,0,.5);
+    font-size: 125%;
+    line-height: 1.5;
+    transition: background-color .25s;
+    &:active,
+    {
+        padding-top:.3em + .05em;
+        padding-bottom:.3em - .05em;
+        background-image: linear-gradient( transparent, hsla(0,0%,100%,.2))
+    }
+    &:hover,
+    &:focus {
+        background-color:darken($bt-default, 3%);
+        text-decoration: none;
+    }
+    &.success{
+        background-color:$bt-success;
+        &:hover,
+        &:focus {
+            background-color:darken($bt-success, 3%);
+            text-decoration: none;
+        }
+    }
+}
+
