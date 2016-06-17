@@ -10,8 +10,11 @@ ul {
 }
 ul li:not(:first-child){
     padding-top:1rem;
+    border-top: 1px solid #eee;
 }
-
+.ver li:not(:last-child){
+    padding-bottom:1rem;
+}
 ul.level{
     padding:2rem .5rem 1rem;
     .pic img{

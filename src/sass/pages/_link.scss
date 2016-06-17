@@ -12,12 +12,34 @@ a:hover { text-decoration: underline; }
 .pic > a{
     display: block;
 }
-
 .ver .pic a{
+    position:relative;
     opacity: .8;
     display: block;
     transition: opacity .25s;
     &:hover{
         opacity: 1;
     }
+}
+.pic.border-hover > a{
+     border:4px solid transparent;
+     border-radius:4px;
+    &:hover{
+       border-bottom-color:#7b96b1;
+       transition: border-color .2s;
+    }
+}
+.pic.video-hover > a::after{
+    display: none;
+    font-family:"iconfont" !important;
+    font-size: 50px;
+    color: red;
+    content: "\e60e";
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-left: -25px;
+}
+.pic.video-hover > a:hover::after{
+    display: block;
 }

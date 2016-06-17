@@ -17,24 +17,23 @@ html {
 }
 
 @media (min-width: 40rem) {
-    html { font-size: 112%; }
+    html { font-size: 75%;}
+    body{font-size:100%;}
 }
 
 @media (min-width: 64rem) {
-    html { font-size: 120%; }
-    .over-hide{
-        display: none;
-    }
+    html { font-size: 100%; }
+    body{font-size:87.5%;}
 }
 
 body {
     background-color: #f5f8fa;
     color: #555;
-    font-size: 16px;
+    // font-size: 14px;
 }
 .container {
     margin: 0 auto;
     max-width: 53rem;
-    width: 90%;
+    width: 96%;
     position: relative;
 }

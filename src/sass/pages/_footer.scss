@@ -7,3 +7,9 @@ footer .container{
     background-color: #7b96b1;
     padding: 1rem;
 }
+footer .footer-exp a {
+    color: rgba(255,255,255,0.9);
+    text-decoration: underline;
+}
+
+footer .footer-exp a:hover { text-decoration: none; }

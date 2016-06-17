@@ -33,7 +33,7 @@
     padding-top:0;
 }
 .conbox-foot{
-    padding:1em 0;
+    padding:3em 0;
 }
 .conbox-topbg{
     height: 150px;
@@ -45,7 +45,7 @@
     padding:0 .5rem;
 }
 .down-a{
-    display: initial;
+    display: inline;
     max-width: 100px;
     margin-top: -70px;
     margin-bottom: 5px;
@@ -60,7 +60,7 @@
     a{
         display: inline-block;
         color:rgba(255, 255, 255, 0.8);
-        padding-right:10px;
+        padding-right:3px;
         &:hover{
             text-decoration:none;
             color: #fff;
@@ -72,10 +72,20 @@
 }
 .footer-exp{
     display: table-cell;
-    padding-top:30px;
-    padding-left:10px;
+    padding-top:1.5rem;
+    padding-left:.5rem;
 }
 
 .article{
     padding:0 .5rem;
+}
+.caption{
+    padding:0 .5rem;
+}
+.hf-nav{
+    font-size: .8rem;
+    position:absolute;
+    text-align: right;
+    right:.5rem;
+    bottom:.1rem;
 }

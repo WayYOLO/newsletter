@@ -37,6 +37,7 @@ $bt-success:#6b0;
 }
 .bt{
     display: inline-block;
+    white-space: nowrap;
     padding:.3em .8em;
     border: 1px solid rgba(0,0,0,.1);
     background: $bt-default;
