@@ -489,7 +489,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 53rem;
+  max-width: 45rem;
   width: 96%;
   position: relative; }
 
@@ -853,7 +853,7 @@ img {
   background-position: 50% 50%; }
 
 .conbox-downcon {
-  min-height: 300px;
+  min-height: 360px;
   padding: 0 .5rem; }
 
 .down-a {
