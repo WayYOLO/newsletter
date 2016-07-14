@@ -28,6 +28,13 @@ var compatBrowser = ['last 2 versions'];
 
 /* = 具体设置
 -------------------------------------------------------------- */
+//备份当前版本
+var version ='v-'+ new Date().toLocaleDateString();
+gulp.task('ver',function(){
+    gulp.src('dist').pipe(rename(version)).pipe(gulp.dest('VerMgt'));
+    gulp.src('dist/**').pipe(gulp.dest('VerMgt/'+version));
+})
+
 // 复制开发环境图片、字体和html
 gulp.task('copy',function(){
     gulp.src(srcPath.html).pipe(gulp.dest(destPath.html));
