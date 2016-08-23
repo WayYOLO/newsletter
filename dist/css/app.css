@@ -774,6 +774,7 @@ a:hover {
 }
 .ver .pic a:hover {
   opacity: 1;
+  text-decoration: none;
 }
 
 .pic.border-hover > a {

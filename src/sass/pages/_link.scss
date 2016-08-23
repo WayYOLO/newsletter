@@ -19,6 +19,7 @@ a:hover { text-decoration: underline; }
     transition: opacity .25s;
     &:hover{
         opacity: 1;
+        text-decoration: none;
     }
 }
 .pic.border-hover > a{
