@@ -33,7 +33,7 @@
     padding-top:0;
 }
 .conbox-foot{
-    padding:3em 0;
+    padding-bottom:1.25rem;
 }
 .conbox-topbg{
     height: 150px;
@@ -41,7 +41,7 @@
     background-position: 50% 50%;
 }
 .conbox-downcon{
-    min-height: 360px;
+    min-height: 340px;
     padding:0 .5rem;
 }
 .down-a{
@@ -49,8 +49,9 @@
     max-width: 100px;
     margin-top: -70px;
     margin-bottom: 5px;
-    border: 3px solid #fff;
+    border: 4px solid #fff;
     border-radius: 100%;
+    background-color:#50aff0;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 .footer-sns{
