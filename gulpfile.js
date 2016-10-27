@@ -37,6 +37,8 @@ gulp.task('ver',function(){
 
 // 复制开发环境图片、字体和html
 gulp.task('copy',function(){
+    del(destPath.font+'/*');
+    del(destPath.img+'/*');
     gulp.src(srcPath.html).pipe(gulp.dest(destPath.html));
     gulp.src(srcPath.font+'/*').pipe(gulp.dest(destPath.font));
     gulp.src(srcPath.img+'/*').pipe(gulp.dest(destPath.img));
